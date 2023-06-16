@@ -49,7 +49,7 @@ streamlit.write('The user entered ',add_my_fruit )
 streamlit.write('Thanks for adding ', add_my_fruit)
 
 #this will not work correctly , just go with it for now
-my_cur.execute("insert into fruit_load_list_values('from streamlit')")
+my_cur.execute("insert into fruit_load_list('from streamlit')")
 
 
 
